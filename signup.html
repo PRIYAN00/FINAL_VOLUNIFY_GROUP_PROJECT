@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Webpage Design</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo">&#129309;Volunify</h2>
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li><a href="homepage.html">HOME</a></li>
+                    <li><a href="aboutus.html">ABOUT</a></li>
+                    <li hidden><a href="eventpage.html">EVENT</a></li>
+                </ul>
+            </div>
+
+            <div class="search">
+                <input class="srch" type="search" name="" placeholder="Type To text">
+                <a href="#"> <button class="btn">Search</button></a>
+            </div>
+
+        </div>
+
+                <div class="form">
+                    <form action="ADMIN/saveuser.php" method="post">
+                    <h2>Sign up Here</h2>
+                    <input type="email" name="email" placeholder="Enter Email Here">
+
+                    <input type="text" name="username" placeholder="Enter User name Here">
+
+                    <input type="text" name="fullname" placeholder="Enter User Full Name Here">
+
+                    <input type="text" name="interest" placeholder="Enter Your Intersted Areas of Volunteering">
+
+                    <input type="text" name="ability" placeholder="Enter Your Ability You Have">
+
+                    <input type="text" name="talents" placeholder="Enter Your Talents You Have">
+
+                    <input type="text" name="qualification" placeholder="Enter Your Qualification, Achievement">
+
+                    
+                    <input type="password" name="password" placeholder="Enter Password Here">
+
+                     
+                    <select id = "User type" name="usertype">
+                        <option value = "User type" selected disabled hidden > Select User type</option>
+                        <option value="2"> Volunteer</option>
+                        <option value="3"> Organization</option>
+                    </select>
+
+                    
+
+                    <input type="Location" name="location" placeholder="Enter Location Here" value="">
+                
+                    <button class="btnn" name="upload" ><a href="#">Sign up</a></button>
+                    
+                    
+                    <p class="link"><h5> Do you already have an account<br>
+                        <a href="login.html">Log in</a> here</a></p>
+                    </h5>
+                    </form>
+                
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
